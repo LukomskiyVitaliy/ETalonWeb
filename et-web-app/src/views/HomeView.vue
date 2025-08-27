@@ -29,7 +29,7 @@ const subscriptions = ref<Set<number>>(new Set())
 
 // --- Конфігурація ---
 const API_BASE = 'http://localhost:5216/api'
-const SECRET_KEY = 'abc123' // ⚠️ У продакшені — не хардкодити!
+
 
 // --- Емуляція Telegram (тільки для dev) ---
 onMounted(() => {
